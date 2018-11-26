@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewPlant"
+        android:layout_alignTop="@+id/textView10"
+        android:text="Text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewPlant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_marginEnd="108dp"
+        android:layout_marginTop="0dp"
+        android:text="Text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewSubstance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textViewPlant"
+        android:layout_marginTop="186dp"
+        android:text="Text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewUsageReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewPlant"
+        android:layout_alignTop="@+id/textView14"
+        android:text="Large Text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Data"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_marginTop="79dp"
+        android:text="Powierzchnia[ha]"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_marginTop="133dp"
+        android:text="Roślina"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_alignTop="@+id/textViewSubstance"
+        android:text="Środek"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_centerVertical="true"
+        android:text="Powód użycia"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="77dp"
+        android:layout_toEndOf="@+id/textView11"
+        android:clickable="true"
+        android:onClick="click"
+        android:text="POWRÓT" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewDate"
+        android:layout_alignTop="@+id/textViewDose"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewDose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_marginBottom="184dp"
+        android:text="Dawka" />
+
+    <TextView
+        android:id="@+id/textViewArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_marginEnd="100dp"
+        android:text="TextView" />
+
+</RelativeLayout>
